@@ -1,0 +1,24 @@
+{
+    "name": "ignatenkovnikita/bean-super-mon",
+    "description": "Only stat data for beanstalk queue server & Supervisor",
+    "type": "yii2-extension",
+    "require": {
+        "yiisoft/yii2": "^2.0",
+        "yiisoft/yii2-bootstrap": "^2.0",
+        "ihor/supervisor-xml-rpc": "^0.1.0",
+        "pda/pheanstalk": "^3.1@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "ignatenkovnikita\\beansupermon\\": ""
+        }
+    },
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Ignatenkov NIkita",
+            "email": "g.kiting@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
